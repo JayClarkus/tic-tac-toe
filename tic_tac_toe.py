@@ -205,7 +205,7 @@ while True:
         options.remove("LR")
     else:
         break
-    tie_game_condition()
     player_win_condition()
+    tie_game_condition()
     computer_move()
     computer_win_condition()
